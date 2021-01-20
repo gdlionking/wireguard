@@ -1,1 +1,11 @@
 
+config nps
+	option server_port '8024'
+	option protocol 'tcp'
+	option crypt '1'
+	option log_level '4'
+	option server_addr '198.181.46.184'
+	option compress '1'
+	option enabled '1'
+	option vkey '465354709394'
+
