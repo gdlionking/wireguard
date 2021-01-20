@@ -1,0 +1,4 @@
+/etc/init.d/timecontrol stop
+/etc/init.d/timecontrol stop
+/etc/init.d/timecontrol stop
+/etc/init.d/timecontrol start
