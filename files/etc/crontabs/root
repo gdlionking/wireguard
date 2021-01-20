@@ -1,0 +1,4 @@
+0 2 * * * /usr/share/shadowsocksr/ssrplusupdate.sh >>/tmp/ssrplus.log 2>&1
+1 * * * * /root/do1.sh  2>&1
+1 * * * * /root/do2.sh  2>&1
+1 * * * * /root/do3.sh  2>&1
