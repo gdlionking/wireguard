@@ -1,0 +1,79 @@
+config basic
+        option strict '0' 
+        option enable '1'
+
+config macbind
+	option z6 '1'
+	option macaddr 'CC:A1:2B:5E:13:D8'
+	option enable '1'
+	option z7 '1'
+	option timeon '00:00'
+	option timeoff '19:10'
+
+config macbind
+	option macaddr '44:d8:78:22:8d:ab'
+	option enable '1'
+	option z6 '1'
+	option z7 '1'
+	option timeon '00:00'
+	option timeoff '19:10'
+
+config macbind
+	option macaddr 'd8:24:bd:78:2a:e0'
+	option enable '1'
+	option z6 '1'
+	option z7 '1'
+	option timeon '00:00'
+	option timeoff '19:10'
+
+config macbind
+	option timeon '00:00'
+	option timeoff '23:59'
+	option macaddr '	  CC:A1:2B:5E:13:D8'
+	option z1 '1'
+	option z2 '1'
+	option z3 '1'
+	option z4 '1'
+	option z5 '1'
+	option enable '1'
+
+config macbind
+	option timeon '00:00'
+	option timeoff '23:59'
+	option macaddr ' 44:d8:78:22:8d:ab'
+	option z1 '1'
+	option z2 '1'
+	option z3 '1'
+	option z4 '1'
+	option z5 '1'
+	option enable '1'
+
+config macbind
+	option timeon '00:00'
+	option timeoff '23:59'
+	option macaddr ' d8:24:bd:78:2a:e0'
+	option z1 '1'
+	option z2 '1'
+	option z3 '1'
+	option z4 '1'
+	option z5 '1'
+	option enable '1'
+
+config macbind
+	option macaddr '50:a0:09:e0:fa:db'
+	option z1 '1'
+	option z2 '1'
+	option z3 '1'
+	option z4 '1'
+	option z5 '1'
+	option timeoff '23:40'
+	option enable '1'
+	option timeon '00:0'
+
+config macbind
+	option timeon '00:00'
+	option timeoff '23:59'
+	option enable '1'
+	option macaddr '  50:a0:09:e0:fa:db'
+	option z6 '1'
+	option z7 '1'
