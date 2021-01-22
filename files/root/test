@@ -7,13 +7,13 @@ if [ -f "/root/f" ]; then
  tt=`date '+%s'`                                                          
 tt1=$(date)                                                               
  if [ $tt -gt $t ]; then                                                  
- /etc/init.d/timecontrol stop                                             
- /etc/init.d/timecontrol stop                                             
- /etc/init.d/timecontrol start                                            
+ /etc/init.d/mia stop                                             
+ /etc/init.d/mia stop                                             
+ /etc/init.d/mia start                                            
   echo start again at $tt1 >>f2                                             
 ttt=$(($tt-$t))                                                         echo time is out in $ttt  >>f2                                            
  else                                                                     
-  /etc/init.d/timecontrol stop                                            
+  /etc/init.d/mia stop                                            
  echo time is less then 3 >>f2                                            
  fi                                                                       
                                                                           
