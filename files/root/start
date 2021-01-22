@@ -16,7 +16,7 @@ done
 if [ ! $num ]; then                                                       
   echo "IS NULL"                                                          
 else                                                                      
-  /etc/init.d/timecontrol stop                                            
+  /etc/init.d/mia stop                                            
   atrm $( atq -q L | awk '{ print $1 }' )                                 
   at -f start.sh -q L now+"$num"min                                          
 tnow=`date '+%s'`                                                         
