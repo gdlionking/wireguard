@@ -1,1 +1,2 @@
-/etc/init.d/timecontrol stop
+
+/etc/init.d/mia stop 
