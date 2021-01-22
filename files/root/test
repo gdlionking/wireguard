@@ -11,7 +11,8 @@ tt1=$(date)
  /etc/init.d/mia stop                                             
  /etc/init.d/mia start                                            
   echo start again at $tt1 >>f2                                             
-ttt=$(($tt-$t))                                                         echo time is out in $ttt  >>f2                                            
+ttt=$(($tt-$t))                                                        
+ echo time is out in $ttt  >>f2                                            
  else                                                                     
   /etc/init.d/mia stop                                            
  echo time is less then 3 >>f2                                            
