@@ -1,4 +1,4 @@
-/etc/init.d/timecontrol stop
-/etc/init.d/timecontrol stop
-/etc/init.d/timecontrol stop
-/etc/init.d/timecontrol start
+/etc/init.d/mia stop
+/etc/init.d/mia stop
+/etc/init.d/mia stop
+/etc/init.d/mia start
